@@ -148,12 +148,6 @@
             "thumbnailUrl": "http://localhost:9000/Picture18.jpg"
         },
         {
-            "id": 20,
-            "title": "A-Level Synoptic Clay Bust",
-            "media": "Media: Clay",
-            "thumbnailUrl": "http://localhost:9000/Picture20.jpg"
-        },
-        {
             "id": 21,
             "size": "''Sizes Vary''",
             "title": "Cropped Portraits of Anisha Hussain",
@@ -184,6 +178,12 @@
             "desc": "Inspired by Masato Tsuchiya",
             "media": "Media: White Chalk and Charcoal",
             "thumbnailUrl": "http://localhost:9000/Picture24.jpg"
+        },
+        {
+            "id": 20,
+            "title": "A-Level Synoptic Clay Bust",
+            "media": "Media: Clay",
+            "thumbnailUrl": "http://localhost:9000/Picture20.jpg"
         },
         {
             "id": 25,

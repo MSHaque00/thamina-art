@@ -6,11 +6,11 @@ const PictureContainer = styled.div`
     display: flex;
     flex-direction: column;
     overflow: hidden;
-    width: 319px;
+    width: 330px;
     min-height: 250px;
     background-color: #ffffff;
     box-shadow: 0px 0px 16px rgb(0, 0, 0);
-    margin: 3em;
+    margin: 2em;
     margin-bottom: 1.3em;
     margin-left: 8em;
     outline-style:ridge;
@@ -19,7 +19,12 @@ const PictureContainer = styled.div`
 
     @media screen and (max-width: ${deviceSize.mobile}px) {
         margin-left: 2.5em;
-  }
+    }
+  @media screen and (max-width: ${281}px) {
+    width: 230px;
+
+    }
+
 `;
 
 const TopContainer = styled.div`
@@ -28,12 +33,16 @@ const TopContainer = styled.div`
 
 const PictureThumbnail = styled.div`
     width: 100%;
-    height: 30em;
+    height: 35em;
     
 
     img{
         width: 100%;
         height: 100%;
+    }
+
+    @media screen and (max-width: ${281}px) {
+    height: 25em;
     }
  
 `;
@@ -56,6 +65,10 @@ const Title = styled.h2`
     font-weight: 500;
     color: #000000;
 
+    @media screen and (max-width: ${281}px) {
+        font-size: 13px;
+    }
+
 `;
 const Bold = styled.h2`
     font-size: 15px;
@@ -63,6 +76,9 @@ const Bold = styled.h2`
     font-weight: 600;
     color: #000000;
 
+    @media screen and (max-width: ${281}px) {
+        font-size: 13px;
+    }
 `;
 
 const BackgroundFilter = styled.div`

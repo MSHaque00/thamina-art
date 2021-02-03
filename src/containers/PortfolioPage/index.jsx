@@ -31,6 +31,10 @@ const BackgroundFilter = styled.div`
     background-color: #ffd7d7;
     display: flex;
     flex-direction: column;
+
+    @media screen and (max-width: ${281}px) {
+        width: 100%;
+    }
     
 
 `;

@@ -10,13 +10,19 @@ const FavouriteContainer = styled.div`
     display: flex;
     background-color:#f8dfdf;
     flex-direction:row;
-    align-items: flex-start;
+    align-items: center;
+    justify-content: space-evenly;
 `;
 
 const FavWrapper = styled.div`
     display: flex;
     flex-wrap:wrap;
     flex-direction: row;
+    @media screen and (max-width: ${980}px) {
+        display: block;
+       flex-direction: column;
+       justify-content: center;
+    }
 `;
 
 const WarningText = styled.h3`

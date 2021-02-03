@@ -2,6 +2,7 @@ import styled from "styled-components";
 import { Marginer } from "../../components/marginer";
 import { useMediaQuery } from "react-responsive";
 import { deviceSize } from "../../components/responsive";
+
 const NavbarContainer = styled.div`
     width: 100%;
     height: 60px;
@@ -13,6 +14,7 @@ const NavbarContainer = styled.div`
     @media screen and (max-width: ${deviceSize.mobile}px) {
     align-items: flex-start;
   }
+
 `;
 
 const AccessibilityCointainer = styled.div`
@@ -28,7 +30,7 @@ const AnchorLink = styled.a`
     text-decoration:solid;
     outline: none;
     transition: all 200ms ease-in-out;
-    padding-right: 17px;
+    padding-right: 0px;
 
     &:hover{
         filter:contrast(0.1);
