@@ -14,11 +14,11 @@ import { SLiderData } from '../../components/ImageSlider/SliderData';
 
 
 const ContentContainer = styled.div`
-    width: 100;
-    max-width: ${deviceSize.laptop}px;
+    width: 100%;
     display: flex;
     align-items: center;
     flex-direction: column;
+
     
     
 `;
@@ -34,7 +34,7 @@ const Title = styled.h1`
 
 const BackgroundFilter = styled.div`
     width: 100% ;
-    height: 100vh ;
+    height: 100% ;
     background-color: rgba(239, 191, 189, 0.61);
     display: flex;
     flex-direction: column;
@@ -42,15 +42,15 @@ const BackgroundFilter = styled.div`
 `;
 const MidSectionContainer = styled.div`
     width: 100%;
-    height: 100vh;
+    height: 700px;
     background-image: url(${blackNwhite});
     background-position: 0px -120px;
     background-size: cover;
     
 
-    @media screen and (max-width: ${deviceSize.mobile}px) {
-        background-position: -700px 0px;
-        height: 100%;
+    @media screen and (max-width: ${1672}px) {
+        background-position: 0px 0px;
+        
   }
 `;
 
@@ -66,9 +66,7 @@ export function HomePage(props) {
             <MidSectionContainer>
                 <BackgroundFilter>
                     <Title style={{ fontFamily: 'vivaldi' }} >Personal Favourites x</Title>
-                    <InnerPageContainer>
-                        <Slider slides={SLiderData} />
-                    </InnerPageContainer>
+                    <Slider slides={SLiderData} />
                 </BackgroundFilter>
             </MidSectionContainer>
             <Marginer direction="vertical" margin={2} />

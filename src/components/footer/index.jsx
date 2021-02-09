@@ -15,7 +15,7 @@ const FooterContainer = styled.div`
     padding: 10px 3em;
     border-top: 3px solid #979696;
 
-    @media screen and (max-width: ${deviceSize.mobile}px) {
+    @media screen and (max-width: 769px) {
         padding: 0;
         min-height: 40px;
         
@@ -53,6 +53,7 @@ const Title = styled.h5`
         font-size:10;
         font-weight: 200;
         margin-top:4px;
+        margin-left: 20px;
   }
 
     
@@ -82,6 +83,7 @@ const PrivacyText = styled.h6`
 
     @media screen and (max-width: ${deviceSize.mobile}px) {
         font-size: 7px;
+        margin-left: 0px;
         
   }
 `;
@@ -94,8 +96,9 @@ const DevText = styled.h6`
     align-items: center;
     margin-top: 9px;
 
-    @media screen and (max-width: ${deviceSize.mobile}px) {
-        font-size: 7px;
+    @media screen and (max-width: 769px) {
+        font-size: 8px;
+        margin-right: 20px;
         
   }
 `;

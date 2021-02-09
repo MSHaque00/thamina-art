@@ -12,7 +12,10 @@ const TopSectionContainer = styled.div`
     background-image: url(${TopSectionBackgroundImg});
     background-position: 0px -50px;
     background-size: cover;
-
+    @media screen and (max-width: ${1217}px) {
+        height: 700px;
+        background-position: 0px 0px ;
+  }
     @media screen and (max-width: ${767}px) {
         height: 700px;
         background-position: -310px 0px ;
@@ -36,15 +39,6 @@ const TopSectionInnerContainer = styled.div`
     justify-content: center; 
 `;
 
-const Logo = styled.div`
-    width: 10em ;
-    height: 10em ;
-
-    img{
-        width: 100% ;
-        height: 100% ;
-    }
-`;
 
 const LogoContainer = styled.div`
     display: flex;
@@ -67,6 +61,10 @@ const SloganText = styled.h1`
 
     @media screen and (max-width: ${deviceSize.mobile}px) {
         font-size: 60px;
+    
+  }
+  @media screen and (max-width: 370px) {
+        font-size: 40px;
     
   }
    

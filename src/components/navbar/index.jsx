@@ -2,6 +2,7 @@ import styled from "styled-components";
 import { Marginer } from "../../components/marginer";
 import { useMediaQuery } from "react-responsive";
 import { deviceSize } from "../../components/responsive";
+import { HamburgerMenu } from "../hamburgerMenu";
 
 const NavbarContainer = styled.div`
     width: 100%;
@@ -52,18 +53,22 @@ export function Navbar(props) {
 
     return (
         <NavbarContainer>
+            {!isMobile && (
+                <AccessibilityCointainer>
+                    <AnchorLink href="/">Home </AnchorLink>
+                    <Marginer direction="horizontal" margin={10} />
+                    <AnchorLink href="/about"> About </AnchorLink>
+                    <Marginer direction="horizontal" margin={10} />
+                    <AnchorLink href="/portfolio"> Portfolio </AnchorLink>
+                    <Marginer direction="horizontal" margin={10} />
+                    <AnchorLink href="/contact"> Contact </AnchorLink>
+                    <Marginer direction="horizontal" margin={20} />
+                </AccessibilityCointainer>
+            )}
 
-            <AccessibilityCointainer>
-                <AnchorLink href="/">Home </AnchorLink>
-                <Marginer direction="horizontal" margin={10} />
-                <AnchorLink href="/about"> About </AnchorLink>
-                <Marginer direction="horizontal" margin={10} />
-                <AnchorLink href="/portfolio"> Portfolio </AnchorLink>
-                <Marginer direction="horizontal" margin={10} />
-                <AnchorLink href="/contact"> Contact </AnchorLink>
-                <Seperator />
-                <Marginer direction="horizontal" margin={20} />
-            </AccessibilityCointainer>
+            {isMobile && (
+                <HamburgerMenu />
+            )}
         </NavbarContainer>
     );
 }

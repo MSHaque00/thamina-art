@@ -17,6 +17,11 @@ const LogoImage = styled.div`
         width: 100%;
         height: 100%;
     }
+    @media screen and (max-width: 380px) {
+        width:15em;
+        height:10em;
+    
+  }
 
 `;
 
