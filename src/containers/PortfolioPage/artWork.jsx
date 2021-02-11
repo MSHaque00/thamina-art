@@ -2,8 +2,7 @@ import React, { useEffect, useState } from "react";
 import styled from "styled-components";
 import axios from "axios";
 import { PictureCard } from "../../components/pictureCard";
-import { Marginer } from "../../components/marginer";
-import { Button } from "../../components/button";
+
 
 const FavouriteContainer = styled.div`
     width: 100%;

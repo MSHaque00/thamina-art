@@ -6,11 +6,7 @@
             "title": "Portrait of Isobel Kirkup",
             "desc": "Inspired by Gabriel Moreno",
             "media": "Media: Blue Biro, Red Brusho, Cartridge Paper",
-            "thumbnailUrl": "http://localhost:9000/PictureOne.jpg",
-            "specialist": {
-                "id": 1,
-                "fullName": "Mark brone"
-            }
+            "thumbnailUrl": "http://localhost:9000/PictureOne.jpg"
         },
         {
             "id": 2,
