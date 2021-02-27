@@ -2,6 +2,7 @@
   "name": "thamina-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://mshaque00.github.io/thaminaart",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.2",
     "@fortawesome/free-brands-svg-icons": "^5.15.2",
@@ -23,6 +24,8 @@
     "web-vitals": "^0.2.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
