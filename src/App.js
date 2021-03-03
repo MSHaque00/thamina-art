@@ -11,8 +11,8 @@ function App() {
     <div className="App">
       <Router>
         <Switch>
-          <Route path="/" exact component={HomePage} />
-          <Route path="/portfolio" exact component={PortfolioPage} />
+          <Route path="/MSHaque00/thamina-art" exact component={HomePage} />
+          <Route path="/MSHaque00/thamina-art/portfolio" exact component={PortfolioPage} />
           <Route path="/contact" exact component={ContactPage} />
           <Route path="/about" exact component={AboutPage} />
         </Switch>
