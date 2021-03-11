@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/mshaque00/thamina-art/static/css/main.b8d4ffcc.chunk.css",
+    "main.js": "/mshaque00/thamina-art/static/js/main.f0e81b03.chunk.js",
+    "main.js.map": "/mshaque00/thamina-art/static/js/main.f0e81b03.chunk.js.map",
+    "runtime-main.js": "/mshaque00/thamina-art/static/js/runtime-main.63113005.js",
+    "runtime-main.js.map": "/mshaque00/thamina-art/static/js/runtime-main.63113005.js.map",
+    "static/js/2.91504988.chunk.js": "/mshaque00/thamina-art/static/js/2.91504988.chunk.js",
+    "static/js/2.91504988.chunk.js.map": "/mshaque00/thamina-art/static/js/2.91504988.chunk.js.map",
+    "static/js/3.17598a79.chunk.js": "/mshaque00/thamina-art/static/js/3.17598a79.chunk.js",
+    "static/js/3.17598a79.chunk.js.map": "/mshaque00/thamina-art/static/js/3.17598a79.chunk.js.map",
+    "index.html": "/mshaque00/thamina-art/index.html",
+    "static/css/main.b8d4ffcc.chunk.css.map": "/mshaque00/thamina-art/static/css/main.b8d4ffcc.chunk.css.map",
+    "static/js/2.91504988.chunk.js.LICENSE.txt": "/mshaque00/thamina-art/static/js/2.91504988.chunk.js.LICENSE.txt",
+    "static/media/PictureFive.84bb1ba6.jpg": "/mshaque00/thamina-art/static/media/PictureFive.84bb1ba6.jpg",
+    "static/media/PictureOne.a2f4e3ef.jpg": "/mshaque00/thamina-art/static/media/PictureOne.a2f4e3ef.jpg",
+    "static/media/PictureSeven.cf05d69f.jpg": "/mshaque00/thamina-art/static/media/PictureSeven.cf05d69f.jpg",
+    "static/media/PictureThree.3f318012.jpg": "/mshaque00/thamina-art/static/media/PictureThree.3f318012.jpg",
+    "static/media/Thani.c01c5a9d.jpg": "/mshaque00/thamina-art/static/media/Thani.c01c5a9d.jpg",
+    "static/media/blackNwhite.071e57a0.jpg": "/mshaque00/thamina-art/static/media/blackNwhite.071e57a0.jpg",
+    "static/media/landing-page2.9bf4ddd1.jpg": "/mshaque00/thamina-art/static/media/landing-page2.9bf4ddd1.jpg",
+    "static/media/logo.7588fb51.png": "/mshaque00/thamina-art/static/media/logo.7588fb51.png",
+    "static/media/logo_transparent_cropped.773aeb1f.png": "/mshaque00/thamina-art/static/media/logo_transparent_cropped.773aeb1f.png",
+    "static/media/quoteBack.40ca4fbe.jpg": "/mshaque00/thamina-art/static/media/quoteBack.40ca4fbe.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.63113005.js",
+    "static/js/2.91504988.chunk.js",
+    "static/css/main.b8d4ffcc.chunk.css",
+    "static/js/main.f0e81b03.chunk.js"
+  ]
+}
