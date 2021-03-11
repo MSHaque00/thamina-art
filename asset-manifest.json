@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/thamina-art/static/css/main.b8d4ffcc.chunk.css",
-    "main.js": "/thamina-art/static/js/main.8d47a005.chunk.js",
-    "main.js.map": "/thamina-art/static/js/main.8d47a005.chunk.js.map",
+    "main.js": "/thamina-art/static/js/main.aa6ccfbe.chunk.js",
+    "main.js.map": "/thamina-art/static/js/main.aa6ccfbe.chunk.js.map",
     "runtime-main.js": "/thamina-art/static/js/runtime-main.a22e1db0.js",
     "runtime-main.js.map": "/thamina-art/static/js/runtime-main.a22e1db0.js.map",
-    "static/js/2.1aa10487.chunk.js": "/thamina-art/static/js/2.1aa10487.chunk.js",
-    "static/js/2.1aa10487.chunk.js.map": "/thamina-art/static/js/2.1aa10487.chunk.js.map",
+    "static/js/2.bc064b15.chunk.js": "/thamina-art/static/js/2.bc064b15.chunk.js",
+    "static/js/2.bc064b15.chunk.js.map": "/thamina-art/static/js/2.bc064b15.chunk.js.map",
     "static/js/3.17598a79.chunk.js": "/thamina-art/static/js/3.17598a79.chunk.js",
     "static/js/3.17598a79.chunk.js.map": "/thamina-art/static/js/3.17598a79.chunk.js.map",
     "index.html": "/thamina-art/index.html",
     "static/css/main.b8d4ffcc.chunk.css.map": "/thamina-art/static/css/main.b8d4ffcc.chunk.css.map",
-    "static/js/2.1aa10487.chunk.js.LICENSE.txt": "/thamina-art/static/js/2.1aa10487.chunk.js.LICENSE.txt",
+    "static/js/2.bc064b15.chunk.js.LICENSE.txt": "/thamina-art/static/js/2.bc064b15.chunk.js.LICENSE.txt",
     "static/media/PictureFive.84bb1ba6.jpg": "/thamina-art/static/media/PictureFive.84bb1ba6.jpg",
     "static/media/PictureOne.a2f4e3ef.jpg": "/thamina-art/static/media/PictureOne.a2f4e3ef.jpg",
     "static/media/PictureSeven.cf05d69f.jpg": "/thamina-art/static/media/PictureSeven.cf05d69f.jpg",
@@ -25,8 +25,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.a22e1db0.js",
-    "static/js/2.1aa10487.chunk.js",
+    "static/js/2.bc064b15.chunk.js",
     "static/css/main.b8d4ffcc.chunk.css",
-    "static/js/main.8d47a005.chunk.js"
+    "static/js/main.aa6ccfbe.chunk.js"
   ]
 }
